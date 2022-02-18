@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+}
+/* Header container ends  */
+
+li {
+  list-style: none;
+}
+/* .logo-container {
+} */
+
+.container {
+  overflow: hidden;
+}
+
+header {
+  background-image: url('/photos/headerpic.png');
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.nav ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 20px 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav ul li:last-child {
+  display: flex;
+  align-items: center;
+}
+
+.nav ul li:last-child h3 {
+  margin-left: 25px;
+  color: white;
+  border-bottom: 2px solid white;
+  cursor: pointer;
+}
+/* stars */
+.stars {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  opacity: 0.3;
+}
+/* headertext */
+.headertext {
+  position: absolute;
+  top: 26.3%;
+  left: 24.5%;
+}
+
+.headertext2 {
+  height: 0px;
+  width: 0px;
+}
+/* Header container ends  */
+
+/* History container starts */
+
+.bottomnav {
+  height: 90px;
+}
+
+.bottomnav ul {
+  padding: 20px 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bottomnav ul li:last-child {
+  display: flex;
+  align-items: center;
+}
+
+.bottomnav ul li:last-child h3 {
+  margin-left: 25px;
+  border-bottom: 2px solid;
+  cursor: pointer;
+}
+.logotext {
+  margin: 0 8px;
+}
+
+.second-slide {
+  background-image: url('/photos/historypic.png');
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+/* .historypic {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+} */
+
+.secondSlideInfo {
+  position: absolute;
+  top: 50px;
+  left: 300px;
+  right: 0;
+  color: rgb(54, 81, 116);
+  width: 60%;
+}
+
+.secondSlideInfo span {
+  font-size: 7rem;
+  opacity: 0.6;
+  font-weight: 800;
+  position: relative;
+}
+
+.secondSlideInfo h1 {
+  margin-left: 113px;
+  margin-top: -84px;
+}
+.secondSlideInfo p {
+  color: black;
+  margin-left: 60px;
+  margin-top: 32px;
+  font-size: 1.2rem;
+  text-align: start;
+}
+.second-slide-footer {
+  position: absolute;
+  bottom: 0;
+  height: 210px;
+  width: 100%;
+  background-color: #455469;
+  opacity: 0.7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.second-slide-footer-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.second-slide-footer-img img {
+  padding: 0 10px;
+}
+.carousel-icon {
+  display: flex;
+  align-items: center;
+  padding-bottom: 5px;
+}
+
+.carousel-icon span {
+  border-radius: 50%;
+  background-color: rgb(158, 153, 153);
+  height: 6px;
+  width: 6px;
+  margin: 0 5px;
+}
+
+.active {
+  background-color: white !important;
+}
+/* History container ends */
+.lastContent {
+  height: 180px;
+}
+
+.lastSlideInfo {
+  color: black;
+  width: 60%;
+  margin: 20px 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lastSlideInfo h1 {
+  margin-left: 113px;
+  margin-top: -84px;
+}
+
+.lastSlideInfo span {
+  font-size: 7rem;
+  opacity: 0.6;
+  font-weight: 800;
+  position: relative;
+}
+
+.lastSlideInfo p {
+  color: black;
+  /* margin-left: 265px; */
+  margin-top: 30px;
+  font-size: 1.2rem;
+  text-align: start;
+  width: 50%;
+}
+
+.againLast {
+  position: relative;
+}
+
+.againLastHeader {
+  height: 50px;
+  background-color: #404f6e;
+  display: flex;
+  align-items: center;
+  padding-left: 300px;
+}
+
+.againLastHeader h2 {
+  margin-right: 20px;
+  padding: 10px;
+  color: rgb(163, 158, 158);
+}
+
+.againLastHeader h2:hover {
+  background-color: rgb(163, 158, 158);
+  color: #404f6e;
+}
+
+.againLastBg {
+  background-image: url('/photos/lastpic.png');
+  height: 78.5vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.schedule {
+  position: absolute;
+  top: 130px;
+  left: 300px;
+}
+
+.scheduleWrap {
+  background-color: white;
+  width: 300px;
+  padding: 20px;
+}
+
+.scheduleWrap h1 {
+  color: #455469;
+}
+
+.scheduleInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.scheduleLeft {
+  display: flex;
+  flex-direction: column;
+}
+
+.scheduleRight {
+  display: flex;
+  flex-direction: column;
+}
+
+.scheduleInfo span {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+/* footer container start */
+footer {
+  background-color: #455469;
+}
+.footerWrap {
+  width: 70%;
+  padding: 10px 0;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer span {
+  color: white;
+}
+
+/* footer container ends */ ;
